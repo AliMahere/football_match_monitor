@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Weights are downloaded on first use, not committed.
+*.pt
+*.pth
+
+# Frames and annotations stay out of the repo.
+inference_out/

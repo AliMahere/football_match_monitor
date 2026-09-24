@@ -1,0 +1,12 @@
+numpy>=2.0
+opencv-python>=4.12
+torch>=2.12
+torchvision>=0.21
+ultralytics>=8.4
+supervision>=0.30
+rfdetr>=1.10
+huggingface-hub>=0.25
+
+# Only needed for the roboflow-* models in scripts/infer_frames.py. Installing it
+# pulls a large dependency tree and moves torch to 2.14.
+inference>=0.9
