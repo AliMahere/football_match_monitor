@@ -4,9 +4,18 @@ __pycache__/
 venv/
 .env
 
-# Weights are downloaded on first use, not committed.
+# Model weights are downloaded or trained, never committed.
 *.pt
 *.pth
 
-# Frames and annotations stay out of the repo.
+# Nothing derived from the footage goes in the repository. The match is real and
+# the recordings stay off any public service, so frames, annotated video, tiled
+# datasets and the validation batches Ultralytics renders are all excluded.
 inference_out/
+training_runs/
+runs/
+datasets/
+*.mp4
+*.avi
+*.mkv
+tracks.json
