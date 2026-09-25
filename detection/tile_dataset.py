@@ -10,7 +10,7 @@ pitch markings that get mistaken for the ball only appear in empty tiles, and th
 model needs to see them labelled as background.
 
 Example:
-    python scripts/tile_dataset.py --src ../datasets/ours --out ../datasets/ours_tiled
+    python detection/tile_dataset.py --src ../datasets/ours --out ../datasets/ours_tiled
 """
 
 import argparse

@@ -8,7 +8,7 @@ Roles are collapsed onto the two classes every detector under comparison can
 produce, so goalkeeper and referee become player.
 
 Example:
-    python scripts/prepare_labels.py \
+    python detection/prepare_labels.py \
         --cvat "../inference_out/cvat_left_3zvbc/cvat left.json" \
         --out ../inference_out/labels_left --from-frame 1940
 """

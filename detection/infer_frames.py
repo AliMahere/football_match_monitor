@@ -2,7 +2,7 @@
 annotated previews plus COCO pre-annotations for review in CVAT.
 
 Example:
-    python scripts/infer_frames.py \
+    python detection/infer_frames.py \
         --video "../raw_footage/Left camera (stereo pair).mp4" \
         --model rfdetr-soccernet \
         --out ../inference_out/left_rfdetr \

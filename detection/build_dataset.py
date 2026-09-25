@@ -4,7 +4,7 @@ Frames from the two cameras share file names, so each is prefixed with its
 camera before being copied into the dataset.
 
 Example:
-    python scripts/build_dataset.py \
+    python detection/build_dataset.py \
         --camera left ../inference_out/labels_left ../inference_out/cvat_left_3zvbc/frames \
         --camera right ../inference_out/labels_right ../inference_out/cvat_right_3zvbc/frames \
         --out ../datasets/ours

@@ -4,7 +4,7 @@ Defaults are set for a small dataset cut from one pitch: a moderate model size, 
 low learning rate, and augmentation that avoids shrinking an already tiny ball.
 
 Example:
-    python scripts/finetune_yolo26.py --data ../datasets/ours_tiled/data.yaml \
+    python detection/finetune_yolo26.py --data ../datasets/ours_tiled/data.yaml \
         --name tiled_m --model yolo26m.pt
 """
 

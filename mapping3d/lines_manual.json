@@ -1,0 +1,19 @@
+{
+  "_note": "Rough hand-drawn polylines (4K px) along each STRAIGHT pitch line, read from grid overlays of work/bg/*_bg.png. They only label which white-mask pixels belong to which line (pixels within a band around the polyline); the exact positions come from the mask.",
+  "left": {
+    "goal_line_L": [[1024, 200], [840, 516], [600, 790], [380, 1136], [210, 1440], [110, 1700], [40, 1920]],
+    "far_touch": [[1040, 200], [1400, 180], [2000, 152], [2680, 158], [3200, 196], [3600, 280], [3800, 370]],
+    "halfway": [[2680, 160], [3050, 474], [3230, 620], [3410, 804], [3600, 1000], [3800, 1300]],
+    "box_top_L": [[830, 516], [1550, 416]],
+    "box_front_L": [[1550, 416], [1400, 1050]],
+    "box_bot_L": [[1400, 1050], [380, 1140]]
+  },
+  "right": {
+    "far_touch": [[300, 356], [800, 220], [1320, 176], [2000, 156], [2600, 184], [2924, 250]],
+    "halfway": [[1320, 176], [950, 480], [780, 630], [580, 816], [300, 1120], [0, 1520]],
+    "goal_line_R": [[2930, 256], [3170, 524], [3400, 840], [3630, 1144], [3800, 1400]],
+    "box_top_R": [[2476, 424], [3170, 524]],
+    "box_front_R": [[2476, 424], [2670, 1060]],
+    "box_bot_R": [[2670, 1060], [3630, 1144]]
+  }
+}

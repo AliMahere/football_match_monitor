@@ -6,7 +6,7 @@ COCO person and sports ball, which is what the two-class comparison is built
 around.
 
 Example:
-    python scripts/eval_detector.py --labels ../inference_out/labels_left/all.json \
+    python detection/eval_detector.py --labels ../inference_out/labels_left/all.json \
         --frames ../inference_out/cvat_left_3zvbc/frames \
         --model roboflow-players --log ../inference_out/eval_3zvbc.log
 """

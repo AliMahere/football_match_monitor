@@ -9,7 +9,7 @@ players actually need. ffmpeg comes from the imageio-ffmpeg wheel, so nothing
 has to be installed system-wide.
 
 Example:
-    python scripts/to_h264.py --inputs ../outputs/tracking/*/tracked.mp4
+    python tools/to_h264.py --inputs ../outputs/tracking/*/tracked.mp4
 """
 
 import argparse
